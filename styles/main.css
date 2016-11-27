@@ -1,0 +1,46 @@
+/*
+    * {
+        box-sizing: border-box:
+    }
+*/
+
+.top-navigation {
+    background-color: lightgrey;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+}
+
+h1 {
+    font-style: normal;
+    font-family: sans-serif;
+    width: 175px;
+    position: absolute;
+    margin-top: 13px;
+}
+
+ul li {
+    font-size: 1.75rem;
+    float: right;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a:visited,
+a:link {
+    color: purple;
+    text-decoration: none;
+}
+
+.search {
+    padding-top: 100px;
+}
+
+.logo {
+    padding-top: 100px;
+    border-radius: 75%;
+    width: 30px;
+    position: relative;
+    padding-top: 5px;
+}
