@@ -55,3 +55,35 @@
         border: 1px solid #d3d3d3;
         margin-left: 5px;
     }
+
+    .item-number {
+        margin-left: 200px;
+        padding-top: 40px;
+        position: relative;
+    }
+
+    .results {
+        margin-left: 200px;
+        padding-top: 40px;
+        position: relative;
+    }
+
+    .rows {
+        padding-bottom: 10px;
+    }
+
+    .date,
+    .location {
+        color: #999999;
+    }
+
+    .title {
+        color: blue;
+        font-weight: 500;
+    }
+
+    .date,
+    .title,
+    .location {
+        padding-left: 10px;
+    }
