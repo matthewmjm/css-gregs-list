@@ -33,12 +33,13 @@
     }
 
     .search {
-        padding-top: 80px;
-        height: 100px;
+        padding-top: 100px;
+        height: 32px;
+        position: relative;
     }
 
     .input-bar {
-        height: 80px;
+        height: 32px;
         margin-left: 200px;
     }
 
