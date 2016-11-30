@@ -34,8 +34,10 @@
 
     .search {
         padding-top: 100px;
+        padding-bottom: 40px;
         height: 32px;
         position: relative;
+        border-radius: 25%;
     }
 
     .input-bar {
@@ -48,18 +50,58 @@
         width: 400px;
     }
 
+    .inputForm {
+        border-radius: 5px;
+        border: 1px solid #d3d3d3;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
     .logo {
         width: 30px;
         position: absolute;
         float: right;
         border: 1px solid #d3d3d3;
+        border-radius: 5px 5px 5px 5px;
         margin-left: 5px;
     }
 
     .item-number {
         margin-left: 200px;
-        padding-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         position: relative;
+        display: inline-block;
+    }
+
+    .numbers1,
+    .numbers2,
+    .numbers3 {
+        border: 1px solid #d3d3d3;
+        height: 1.25rem;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .numbers1 {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 25%;
+        border-radius: 5px 0px 0px 5px;
+        border-right-color: white;
+    }
+
+    .numbers2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .numbers3 {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 0px 5px 5px 0px;
+        border-left-color: white;
     }
 
     .results {
